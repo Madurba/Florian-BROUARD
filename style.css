@@ -1,0 +1,177 @@
+body {
+	font-family: helvetica;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav li {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 5px 3px;
+}
+
+nav {
+	padding-right: 10px;
+	padding-bottom: 130px;
+}
+
+.navbutton {
+	color: rgba(0, 0, 0, 0.9);
+	padding: 8px 10px;
+	padding-right: 0;
+	text-decoration: none;
+	font-size: 13px;
+
+}
+
+.square {
+	padding-top: 6px;
+  	padding-right: 15px;
+  	padding-left: 15px;
+}
+
+.account {
+	text-decoration: none;
+	background-color: #4386f8;
+	border-radius: 3px;
+	color: #ffff;
+	padding: 8px 13px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.searchbar {
+	
+	border-radius: 20px;
+	border: 1px solid #ccc;
+	width: 530px;
+	height: 39px;
+	transition: 0.3s;
+	margin: 13px 0;
+}
+
+.searchbar:hover {
+	opacity: 1;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 1px 1px #C8C8C8;
+}
+
+.searchbutton {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: helvetica;
+	border: 0;
+  	border-radius: 2px;
+  	margin-right: 10px;
+  	width: 150px;
+  	height: 40px;
+  	opacity: 0.7;
+  	transition: 0.3s;
+  	background-color: #e9e9e9;
+  	line-height: 40px;
+}
+
+.searchbutton:hover {
+	opacity: 1;
+  	border: 1px solid #ccc;
+}
+
+.submit {
+	padding-right: 20px;
+}
+
+.corona {
+	font-size: small;
+	color: #609;
+	padding-left: 10px;
+}
+
+.coronavirus{
+	display: flex;
+	padding-right: 40px;
+	padding-top: 10px;
+}
+
+.gif {
+	height: 2.7em;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+div ul {
+	display: flex;
+	justify-content: center;
+}
+
+div li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+footer {
+	 background: #f2f2f2;
+	 border-top: solid 2px #e4e4e4;
+	 bottom: 0;
+	 position: fixed;
+	 padding-bottom: 0;
+	 width: 100%;
+	 font-family: helvetica;
+	 left: 0px;
+	 font-size: 12px;
+}
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 13px;
+  padding-right: 13px;
+}
+
+footer ul {
+  float: left;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: #666;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+
+footer ul a:active {
+  text-decoration: underline;
+  color: orangered;
+}
+
+.footerFrance {
+  display: flex;
+  height: 41px;
+  border: 1px solid #e4e4e4;
+  padding-left: 40px;
+  align-items: center;
+  color: rgba(0, 0, 0, .54);
+  font-size: 15px;
+}
+
+.footerRight {
+  float: right;
+  padding-right: 20px;
+}
+
+.footerLeft {
+  float: left;
+}
