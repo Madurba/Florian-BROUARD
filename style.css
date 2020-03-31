@@ -48,7 +48,7 @@ nav {
 	
 	border-radius: 20px;
 	border: 1px solid #ccc;
-	width: 530px;
+	width: 540px;
 	height: 39px;
 	transition: 0.3s;
 	margin: 13px 0;
@@ -96,10 +96,21 @@ nav {
 	padding-top: 10px;
 }
 
+.coro {
+	text-decoration: none;
+}
+
 .gif {
 	height: 2.7em;
 	margin-left: 50px;
 	margin-bottom: 10px;
+}
+
+.iconos input {
+	background-image: url(loupe.jpg), url(vocal.jpg) ;
+	background-repeat: no-repeat;
+	background-position: 10px 10px, right 10px;
+	background-size: 1.5em, 2.7em;
 }
 
 div ul {
